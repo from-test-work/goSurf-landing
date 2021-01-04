@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>default title</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="telephone=no" name="format-detection">
+        <meta name="HandheldFriendly" content="true">
+
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <link href="static/css/main.min.css" rel="stylesheet" type="text/css">
+        <!--<![endif]-->
+        <meta property="og:title" content="#{data.title}">
+        <meta property="og:title" content="">
+        <meta property="og:url" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="300">
+        <meta property="twitter:description" content="">
+        <link rel="image_src" href="">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <script>
+            (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+        </script>
+    </head>
+
+    <body class="page">
+        <header class="header">
+            <div class="header__title">Go serf
+            </div>
+            <nav class="nav">
+                <a class="brand" href="js0">
+                    <img class="brand__logo" src="static/img/content/brand.svg" alt="brand" title="" />
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-list__item">
+                        <a class="nav-list__link">
+                            <img class="nav-list__img" src="static/img/content/nav-icon-01.svg" alt="Surf" title="" />
+                            <figcaption class="nav-list__text">Surf
+                            </figcaption>
+                        </a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link">
+                            <img class="nav-list__img" src="static/img/content/nav-icon-02.svg" alt="Travel" title="" />
+                            <figcaption class="nav-list__text">Travel
+                            </figcaption>
+                        </a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link">
+                            <img class="nav-list__img" src="static/img/content/nav-icon-03.svg" alt="Sleep" title="" />
+                            <figcaption class="nav-list__text">Sleep
+                            </figcaption>
+                        </a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link">
+                            <img class="nav-list__img" src="static/img/content/nav-icon-04.svg" alt="Shop" title="" />
+                            <figcaption class="nav-list__text">Shop
+                            </figcaption>
+                        </a>
+                    </li>
+                </ul>
+                <div class="search position">
+                    <button data-toggle="modal" data-target="searchModal">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23.3304 23.3304C24.2232 22.4376 24.2232 20.9911 23.3304 20.0983L18.6139 15.3817C18.279 15.0469 18.192 14.4375 18.4174 14.0223C18.4174 14.0223 18.4018 14.0848 18.567 13.721C19.1206 12.5 19.4286 11.1429 19.4286 9.7143C19.4286 4.34823 15.0804 0 9.7143 0C4.34823 0 0 4.34823 0 9.7143C0 15.0804 4.34823 19.4286 9.7143 19.4286C11.1384 19.4286 12.4911 19.1228 13.7098 18.5715C14.0781 18.4063 14.0201 18.4197 14.0201 18.4197C14.442 18.1942 15.0469 18.279 15.3817 18.6139L20.0982 23.3304C20.991 24.2232 22.4375 24.2232 23.3304 23.3304ZM15.1429 9.71431C15.1429 12.7121 12.7121 15.1429 9.71434 15.1429C6.71656 15.1429 4.28576 12.7121 4.28576 9.71431C4.28576 6.71653 6.71656 4.28573 9.71434 4.28573C12.7121 4.28573 15.1429 6.71653 15.1429 9.71431Z"
+                            fill="white"></path>
+                        </svg>
+                    </button>
+                    <div class="modal" id="searchModal">
+                        <div class="content">
+                            <input class="search-input" type="text" placeholder="Search">
+                            <div class="results">
+                                <h2>Technologies</h2>
+                                <ul>
+                                    <li tabindex="0">AngularJS</li>
+                                    <li tabindex="0">ReactJS</li>
+                                    <li tabindex="0">Browserify</li>
+                                    <li tabindex="0">Swift</li>
+                                    <li tabindex="0">Webpack</li>
+                                </ul>
+                                <h2>Tags</h2>
+                                <ul>
+                                    <li class="tag" tabindex="0">api</li>
+                                    <li class="tag" tabindex="0">storymapping</li>
+                                    <li class="tag" tabindex="0">facilitation</li>
+                                </ul>
+                            </div>
+                            <!-- end .results-->
+                            <div class="tag-results">
+                                <button class="back"><i class="material-icons">arrow_back</i>
+                                </button><span class="selected-tag">storymapping</span>
+                                <ul>
+                                    <li tabindex="0">AngularJS</li>
+                                    <li tabindex="0">ReactJS</li>
+                                    <li tabindex="0">Browserify</li>
+                                </ul>
+                            </div>
+                            <!-- end .tag-results-->
+                        </div>
+                        <button data-dismiss="modal"><i class="material-icons">close</i><span>ESC</span>
+                        </button>
+                    </div>
+                </div>
+                <time class="time position" datetime="20.06.2019"><span class="time__day">20</span><span class="time__bottom"><span class="time__month">06</span><span class="time__delimetr">|</span><span class="time__year">2019</span></span>
+                </time>
+                <div class="location position">
+                    <div class="location__icon">
+                        <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.43368 0.2948C6.65892 0.2948 7.84852 0.708526 8.78648 1.45986V1.45983C10.0117 2.44068 10.7324 3.83532 10.8195 5.38588C10.903 6.91674 10.3309 8.4145 9.25055 9.49486L5.66926 13.0293C5.53054 13.1668 5.28992 13.1656 5.1512 13.0281L1.62051 9.4974C0.537701 8.41459 -0.0356278 6.91561 0.0490816 5.38591C0.135007 3.83542 0.85689 2.44077 2.08088 1.45986C3.0176 0.708526 4.20846 0.2948 5.43368 0.2948ZM3.02744 5.68442C3.02744 7.01153 4.10654 8.09066 5.43368 8.09066C6.76078 8.09066 7.84114 7.01156 7.83991 5.68442C7.83991 4.35732 6.76081 3.27819 5.43368 3.27819C4.10657 3.27819 3.02744 4.35729 3.02744 5.68442Z"
+                            fill="white"></path>
+                            <path d="M5.43367 4.5116C4.78668 4.5116 4.26123 5.03705 4.26123 5.68404C4.26123 6.33103 4.78668 6.85648 5.43367 6.85648C6.08066 6.85648 6.60612 6.33103 6.60612 5.68404C6.60612 5.03705 6.08066 4.5116 5.43367 4.5116Z" fill="white"></path>
+                        </svg>
+                    </div><span class="location__text">California</span>
+                </div>
+            </nav>
+            <div class="double-arrows">
+                <a class="double-arrows__link animated fadeInDownBig infinite slow" href="#">
+                    <img class="double-arrows__img" src="static/img/content/double-arrows.svg" alt="double arrows" title="" />
+                </a>
+            </div>
+            <div class="swiper-container main-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide main-slider__slide">
+                        <div class="main-slider__wrapper">
+                            <div class="subtext left">Surf</div>
+                            <div class="main-slider__title">North Shore</div>
+                            <div class="subtext left">Condition</div>
+                            <div class="main-slider__subtext">Radical</div>
+                            <a class="main-slider__link" href="js0">
+                                <img class="main-slider__img" src="static/img/content/next.svg" alt="next arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main-slider__slide">
+                        <div class="main-slider__wrapper">
+                            <div class="subtext left">Surf</div>
+                            <div class="main-slider__title">South Shore</div>
+                            <div class="subtext left">Condition</div>
+                            <div class="main-slider__subtext">Radical</div>
+                            <a class="main-slider__link" href="js0">
+                                <img class="main-slider__img" src="static/img/content/next.svg" alt="next arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main-slider__slide">
+                        <div class="main-slider__wrapper">
+                            <div class="subtext left">Surf</div>
+                            <div class="main-slider__title">West Shore</div>
+                            <div class="subtext left">Condition</div>
+                            <div class="main-slider__subtext">Radical</div>
+                            <a class="main-slider__link" href="js0">
+                                <img class="main-slider__img" src="static/img/content/next.svg" alt="next arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main-slider__slide">
+                        <div class="main-slider__wrapper">
+                            <div class="subtext left">Surf</div>
+                            <div class="main-slider__title">East Shore</div>
+                            <div class="subtext left">Condition</div>
+                            <div class="main-slider__subtext">Radical</div>
+                            <a class="main-slider__link" href="js0">
+                                <img class="main-slider__img" src="static/img/content/next.svg" alt="next arrow">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows-->
+                <div class="main-slider-next"></div>
+                <div class="main-slider-prev"></div>
+            </div>
+            <div class="swiper-container main-subslider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide main-subslider__slide">
+                        <div class="main-subslider__wrapper">
+                            <div class="main-subslider__number">01</div>
+                            <div class="main-subslider__text">North Shore</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main-subslider__slide">
+                        <div class="main-subslider__wrapper">
+                            <div class="main-subslider__number">02</div>
+                            <div class="main-subslider__text">South Shore</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main-subslider__slide">
+                        <div class="main-subslider__wrapper">
+                            <div class="main-subslider__number">03</div>
+                            <div class="main-subslider__text">West Shore</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main-subslider__slide">
+                        <div class="main-subslider__wrapper">
+                            <div class="main-subslider__number">04</div>
+                            <div class="main-subslider__text">East Shore</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main></main>
+        <footer class="footer">
+        </footer>
+        <!--section.page__wrapper-->
+        <!---->
+        <!--    //- Include your components here-->
+        <!--    +example()-->
+        <!--    +b.lol-->
+        <!--        +e.item asdaldskajslkdajlskdjaklsdjaslkdj-->
+        <!---->
+        <!--    .page__buffer-->
+        <!---->
+        <!--.page__footer-->
+        <!--    +footer()-->
+
+
+        <script src="static/js/main.min.js"></script>
+    </body>
+
+</html>
